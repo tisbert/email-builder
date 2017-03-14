@@ -1,0 +1,44 @@
+title: 2017
+pages: false
+files: true
+fields:
+  labelSettings:
+    label: Email Client Optimization
+    type: headline
+  title:
+    label: Title
+    type:  text
+    help: This does not appear in the email.
+  preheader:
+    label: Preheader
+    type: text
+    help: This is a summary that is displayed after the title on most email clients.
+  contentSettings:
+    label: Content
+    type: headline
+  info:
+    type: info
+    text: >
+      Copy fields support (link:https://getkirby.com/docs/content/text text: Markdown popup: yes) which is a simple syntax language you can use to style the body of your emails.
+  builder:
+    label: Sections
+    type: builder
+    fieldsets:
+      promo:
+        label: Promo Section
+        snippet: builder/promo
+        fields:
+          header:
+            label: Header
+            type: text
+          description:
+            label: content
+            type: markdown
+          url:
+            label: Button URL
+            type: text
+            width: 1/2
+          btnText:
+            label: Button text
+            type: text
+            width: 1/2

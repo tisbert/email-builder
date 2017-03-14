@@ -1,0 +1,28 @@
+Labelsettings: 
+
+----
+
+Title: 2017 Email
+
+----
+
+Preheader: 
+
+----
+
+Contentsettings: 
+
+----
+
+Info: 
+
+----
+
+Builder: 
+
+- 
+  header: Hello
+  description: Yo Andrew!
+  url: '#'
+  btntext: Click me Homie
+  _fieldset: promo
