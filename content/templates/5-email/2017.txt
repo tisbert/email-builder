@@ -26,3 +26,23 @@ Builder:
   url: '#'
   btntext: Click me Homie
   _fieldset: promo
+  emailimage: https://unsplash.it/580/200/?random
+  bgcolor: blue
+- 
+  bgcolor: green
+  header: Header 2
+  description: >
+    Hey Andrew why you looking at the
+    screeen?
+  url: '#'
+  btntext: Button Yo
+  emailimage: https://unsplash.it/580/300/?random
+  _fieldset: promo
+- 
+  bgcolor: grey
+  header: Header 3
+  description: Hey Andrew nice shirt
+  url: '#'
+  btntext: Button Mothafucka
+  emailimage: https://unsplash.it/580/300/?random
+  _fieldset: promo

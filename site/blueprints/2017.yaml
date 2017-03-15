@@ -28,6 +28,13 @@ fields:
         label: Promo Section
         snippet: builder/promo
         fields:
+          bgColor:
+            label: Background Color
+            type: radio
+            options:
+              blue: Blue
+              green: Green
+              grey: Grey
           header:
             label: Header
             type: text
@@ -42,3 +49,7 @@ fields:
             label: Button text
             type: text
             width: 1/2
+          emailImage: 
+            label: Image for Email
+            type: url
+

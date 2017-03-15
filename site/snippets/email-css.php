@@ -252,6 +252,22 @@ table.column .text-pad-right {
   padding-right: 15px;
 }
 
+table.row.blue {
+  background-color: #0083db;
+}
+table.row.green {
+  background-color: #8bc34a;
+}
+table.row.grey {
+  background-color: #e6e6e6;
+}
+
+table.row.blue img,
+table.row.green img,
+table.row.grey img{
+  vertical-align:bottom;
+}
+
 /* Block Grid */
 
 .block-grid {
@@ -617,6 +633,30 @@ table.large-button:active td a,
 table.large-button td a:visited {
   color: #ffffff !important; 
 }
+
+table.row.blue table.button table td,
+table.row.blue table.tiny-button table td,
+table.row.blue table.small-button table td,
+table.row.blue table.medium-button table td,
+table.row.blue table.large-button table td {
+  background: #333333;
+}
+table.row.green table.button table td,
+table.row.green table.tiny-button table td,
+table.row.green table.small-button table td,
+table.row.green table.medium-button table td,
+table.row.green table.large-button table td {
+  background: #333333;
+}
+
+table.row.grey table.button table td,
+table.row.grey table.tiny-button table td,
+table.row.grey table.small-button table td,
+table.row.grey table.medium-button table td,
+table.row.grey table.large-button table td {
+  background: #0083db;
+}
+
 
 table.secondary td {
   background: #e9e9e9;
